@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
-
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/839148d7db.js" crossorigin="anonymous"></script>
     <style>
         .font-primary {
             font-family: 'Manrope', sans-serif;
@@ -405,33 +406,33 @@
             </div>
         </section>
         <!-- Get In Touch section  -->
-        <section class="my-10">
-            <div class="text-center mb-10">
+        <section class="mt-10">
+            <div class="text-center">
                 <h2 class="text-[#131318] text-4xl font-extrabold mb-5">Get In Touch</h2>
                 <p class="text[rgba(19, 19, 24, 0.60)] text-xs ">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
             </div>
             <div class="lg:grid grid-cols-3 gap-6">
-                <div class="col-span-1">
-                    <div class=" bg-[#BCED6D1A] rounded-lg">
-                        <figure><img class="pl-10 pt-10" src="./Images/Group 1171275317.png" alt="Shoes" /></figure>
+                <div class="col-span-1 p-10 border rounded-lg h-[90%]">
+                    <div class=" bg-[#BCED6D1A] rounded-lg h-[30%]">
+                        <figure><img class="pl-10 pt-5 w-20" src="./Images/Group 1171275317.png" alt="Shoes" /></figure>
                         <div class="card-body">
-                            <p>Phone Number :</p>
-                            <h2 class="card-title">(+62) 123-321-543</h2>
+                            <p class="text[rgba(19, 19, 24, 0.60)] text-xs">Phone Number :</p>
+                            <h4 class="font-bold">(+62) 123-321-543</h4>
                         </div>
                     </div>
-                    <div class=" bg-[#FDDD5F1A] rounded-lg my-5">
-                        <figure><img class="pl-10 pt-10" src="./Images/Group 1171275318.png" alt="Shoes" /></figure>
+                    <div class=" bg-[#FDDD5F1A] rounded-lg my-5 h-[30%]">
+                        <figure><img class="pl-10 pt-5 w-20" src="./Images/Group 1171275318.png" alt="Shoes" /></figure>
                         <div class="card-body">
-                            <p>Email :</p>
-                            <h2 class="card-title"> hockeys@support.com</h2>
+                            <p class="text[rgba(19, 19, 24, 0.60)] text-xs">Email :</p>
+                            <h4 class="font-bold"> hockeys@support.com</h4>
                         </div>
                     </div>
-                    <div class=" bg-[#629CF31A] rounded-lg">
-                        <figure><img class="pl-10 pt-10" src="./Images/Group 1171275321.png" alt="Shoes" /></figure>
+                    <div class=" bg-[#629CF31A] rounded-lg h-[30%]">
+                        <figure><img class="pl-10 pt-5 w-20" src="./Images/Group 1171275321.png" alt="Shoes" /></figure>
                         <div class="card-body">
-                            <p>Location :</p>
-                            <h2 class="card-title">152/1 Mohakhali Wireless Gate</h2>
+                            <p class="text[rgba(19, 19, 24, 0.60)] text-xs">Location :</p>
+                            <h4 class=" font-bold">152/1 Mohakhali Wireless Gate</h4>
                         </div>
                     </div>
                 </div>
@@ -441,46 +442,90 @@
                         <div>
                             <label class="font-bold ml-2" for="">Your Name</label>
                             <input type="text" placeholder="Enter your full name"
-                                class="input bg-slate-50 w-full my-5" />
+                                class="input bg-base-200 w-full my-5" />
                         </div>
                         <div>
                             <label class="font-bold ml-2" for="">Your Email</label>
-                            <input type="text" placeholder="Enter your email"
-                                class="input bg-slate-50 w-full my-5" />
+                            <input type="text" placeholder="Enter your email" class="input bg-base-200 w-full my-5" />
                         </div>
                         <div>
                             <label class="font-bold ml-2" for="">Subject</label>
-                            <input type="text" placeholder="Enter your subject"
-                                class="input bg-slate-50 w-full my-5" />
+                            <input type="text" placeholder="Enter your subject" class="input bg-base-200 w-full my-5" />
                         </div>
                         <div>
                             <label class="font-bold ml-2" for="">Phone Number</label>
                             <input type="text" placeholder="Enter your phone number"
-                                class="input  w-full bg-slate-50 my-5" />
+                                class="input  w-full bg-base-200 my-5" />
                         </div>
 
                     </div>
                     <div class="col-span-2">
                         <label class="font-bold ml-2" for="">Message</label>
-                    <textarea class="textarea w-full h-[295px] my-5" placeholder="Write your message" disabled></textarea>
+                        <textarea class="textarea w-full h-[196px] my-5" placeholder="Write your message"
+                            disabled></textarea>
                         <button class="bg-[#FF4240] w-full py-4 px-4 rounded-lg text-white mt-3">Send Message</button>
                     </div>
                 </div>
             </div>
-
-
-
         </section>
+        <!-- Social Media section  -->
+        <section class="flex justify-center bg-base-200 rounded-lg my-5">
 
-
-
-
-
-
+            <div class="py-10 space-x-4">
+                <h2 class="text-[#131318] text-2xl font-extrabold py-5">Social Media</h2>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </section>
 
     </main>
 
+    <!-- footer section  -->
+    <footer class="bg-[#131318]">
+        <div class="footer p-10  text-base-content text-white container mx-auto">
 
+            <aside class=" mx-auto">
+                <h2 class="text-2xl font-extrabold opacity-70">Get In Touch</h2>
+                <p class="text[rgba(19, 19, 24, 0.60)] text-xs opacity-70">ACME Industries Ltd.<br />Providing reliable
+                    tech since 1992</p>
+                <div class="flex opacity-70">
+                    <img src="./Images/Frame (4).png" alt="">
+                    <h4 class="text[rgba(19, 19, 24, 0.60)] text-xs ml-3">hockeys@support.com</h4>
+                </div>
+                <div class="flex opacity-70 ">
+                    <img src="./Images/Frame (5).png" alt="">
+                    <h4 class="text[rgba(19, 19, 24, 0.60)] text-xs ml-3">(+62) 123-321-543</h4>
+                </div>
+            </aside>
+            <div class="flex gap-20  lg:gap-48">
+                <nav class="opacity-70 flex flex-col">
+                    <header class="text-xl font-extrabold">Company</header>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Leadership</a>
+                    <a class="link link-hover">Careers</a>
+                    <a class="link link-hover">News & Article</a>
+                    <a class="link link-hover">Legal Notice</a>
+                </nav>
+                <nav class="opacity-70 flex flex-col">
+                    <header class="text-xl font-extrabold">Support</header>
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover">FAQ....</a>
+                    <a class="link link-hover">Ticket Support</a>
+                    <a class="link link-hover">Contact Us</a>
+                </nav>
+            </div>
+            <nav class="opacity-70 flex flex-col mx-auto ">
+                <header class="text-xl font-extrabold ">Services</header>
+                <a class="link link-hover">Academy</a>
+                <a class="link link-hover">Group Lesson</a>
+                <a class="link link-hover">Private Lesson</a>
+                <a class="link link-hover">Hockeys for kids</a>
+                <a class="link link-hover">Hockeys for Adult</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 
 </html>
